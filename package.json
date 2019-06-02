@@ -1,0 +1,21 @@
+{
+  "name": "redis-gql-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/redis-gql-server.git"
+  },
+  "keywords": [
+    "redis",
+    "graphql"
+  ],
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/redis-gql-server/issues"
+  },
+  "homepage": "https://github.com/shwilliam/redis-gql-server#readme"
+}
