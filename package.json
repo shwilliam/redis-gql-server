@@ -2,8 +2,10 @@
   "name": "redis-gql-server",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shwilliam/redis-gql-server.git"
@@ -17,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/shwilliam/redis-gql-server/issues"
   },
-  "homepage": "https://github.com/shwilliam/redis-gql-server#readme"
+  "homepage": "https://github.com/shwilliam/redis-gql-server#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.6.1",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1"
+  }
 }
